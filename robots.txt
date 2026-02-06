@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Sitemap: https://yourusername.github.io/your-repo-name/sitemap.xml
+
+# Block the admin dashboard from search engines (private area)
+User-agent: *
+Disallow: /dashboard.html
+
+# Block any other files you don't want indexed
+Disallow: /SETUP-GUIDE.md
+Disallow: /SEO-GUIDE.md
